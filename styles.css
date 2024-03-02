@@ -3,28 +3,28 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-}
-
-header {
+ }
+ 
+ header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
-}
-
-main {
+ }
+ 
+ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section {
+ }
+ 
+ section {
     margin-bottom: 20px;
-}
-
-footer {
+ }
+ 
+ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -32,4 +32,20 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+ }
+ 
+ .answer {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-top: none;
+ }
+ 
+ .question {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #eee;
+ }
+ 
