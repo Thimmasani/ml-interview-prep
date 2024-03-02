@@ -20,18 +20,11 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
  }
  
- section {
-    margin-bottom: 20px;
- }
- 
- footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+ .question {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #eee;
  }
  
  .answer {
@@ -40,12 +33,5 @@ body {
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-top: none;
- }
- 
- .question {
-    cursor: pointer;
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #eee;
  }
  

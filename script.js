@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
  
     questions.forEach(question => {
         question.addEventListener('click', function () {
-            const answer = this.nextElementSibling;
+            const answer = this.querySelector('.answer');
  
             // Toggle the visibility of the answer
             if (answer.style.display === 'block') {
